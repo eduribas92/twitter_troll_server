@@ -23,7 +23,7 @@ paths:
       operationId: models.get_user
       summary: Get a single user
       parameters:
-        - $ref: '#/parameters/project_id'
+        - $ref: '#/parameters/user_id'
       responses:
         200:
           description: Return user
